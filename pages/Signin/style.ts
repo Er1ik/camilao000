@@ -1,5 +1,6 @@
+import { Feather } from '@expo/vector-icons';
 import styled from 'styled-components/native';
-//import { RFValue } from 'react-native-responsive-fontsize';
+
 
 export const Container = styled.View`
     flex: 1;
@@ -24,4 +25,9 @@ export const Logo = styled.Image`
     width: 50px;
     height: 50px;
     margin-bottom: 10px;
+`;
+
+export const Icon = styled(Feather)`
+    font-size:20px;
+    color: white;
 `;
